@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Rose', cursive;
+}
+
+
+body{
+    background: linear-gradient(rgba(17, 17, 17, 0.844), rgba(17, 17, 17, 0.859)),url("../images/bg.png");
+    background-position:top;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    padding: 40px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav .nav-items{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav .nav-items .nav-item{
+    margin: 0px 15px;
+}
+
+nav .nav-items .nav-item a{
+    padding: 10px 15px;
+   text-decoration: none;
+   color: #FFC233;
+   font-size: 22px;
+}
+
+
+
+
+
+.content .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    font-size: 8rem;
+    padding: 10px 35px;
+    font-weight: 900;
+   color: #FFC233;
+
+}
+
+
+.content .btn-part{
+    display: flex;
+    justify-content: center;
+}
+
+.content .btn-part .order-btn,nav .btn-part .order-btn{ 
+    /* width: 160px; */
+    padding: 14px 30px;
+    border: none;
+    background-color: #FF6263;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+
+  .content .btn-part .order-btn:hover{
+     background-color: #D82E2F;
+  }
