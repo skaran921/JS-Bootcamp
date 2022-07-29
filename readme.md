@@ -4,7 +4,7 @@
 
 !["Project 1"](./project1/images/Project1.png)
 
-# Project 1
+# Project 2
 
 ### Learn about Flex-box
 
