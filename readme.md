@@ -2,4 +2,4 @@
 
 ### Learn about CSS Position
 
-["Project 1"](./project1/images/Project1.png)
+!["Project 1"](./project1/images/Project1.png)
